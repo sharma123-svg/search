@@ -1,6 +1,10 @@
 """A small command-line Python application."""
 
 
+def greet(name: str = "World") -> str:
+    """Return a friendly greeting."""
+    return f"Hello, {name}!"
+
 
 def main() -> None:
     """Run the application."""
